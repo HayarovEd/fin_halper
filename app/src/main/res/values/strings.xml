@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Финансовый помощник</string>
+
+    <string name="text_accept">Принять</string>
+    <string name="privacy_text">Я принимаю пользовательское соглашение</string>
+    <string name="about_app_text">Используя приложение “Деньги на\nкарту” Вы подтверждаете,\nчто принимаете и ознакомлены с \n<font color='#4AC74F'><u>политикой конфиденциальности</u></font>.</string>
+    <string name="about_app">Приложение создано\nдля онлайн просмотра\nкредитов, займов и\nкарт</string>
+    <string name="privacy_error">Сначала примите соглашение</string>
+    <string name="privacy_title_text">Пользовательское соглашение</string>
+    <string name="direction_text">Выберите интересующее вас\nнаправление:</string>
+
+    <string name="loans">Займы</string>
+    <string name="cards">Кредитные карты</string>
+    <string name="news">Новости</string>
+    <string name="locans">Кредиты</string>
+    <string name="privacy">Политика конфиденциальности</string>
+    <string name="get_card">Оформить</string>
+    <string name="about">Подробнее</string>
+
+    <string name="detailed">Подробнее</string>
+
+</resources>

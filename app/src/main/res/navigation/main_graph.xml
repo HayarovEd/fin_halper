@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_graph"
+    app:startDestination="@id/startFragment">
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="appk.obzorkards.fragment.StartFragment"
+        android:label="StartFragment" >
+        <action
+            android:id="@+id/action_startFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@+id/main_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="appk.obzorkards.fragment.PrivacyFragment"
+        android:label="PrivacyFragment" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="appk.obzorkards.fragment.MainFragment"
+        android:label="MainFragment" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="appk.obzorkards.fragment.NewsFragment"
+        android:label="NewsFragment" />
+    <fragment
+        android:id="@+id/newsDetailFragment"
+        android:name="appk.obzorkards.fragment.NewsDetailFragment"
+        android:label="NewsDetailFragment" />
+    <fragment
+        android:id="@+id/cardsFragment"
+        android:name="appk.obzorkards.fragment.CardsFragment"
+        android:label="CardsFragment" />
+    <fragment
+        android:id="@+id/loansFragment"
+        android:name="appk.obzorkards.fragment.LoansFragment"
+        android:label="LoansFragment" />
+    <fragment
+        android:id="@+id/loanDetailFragment"
+        android:name="appk.obzorkards.fragment.LoanDetailFragment"
+        android:label="LoanDetailFragment" />
+    <fragment
+        android:id="@+id/browserFragment"
+        android:name="appk.obzorkards.fragment.BrowserFragment"
+        android:label="BrowserFragment" />
+</navigation>
