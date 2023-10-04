@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace "appk.obzorkards"
+    namespace "appk.obzorkardsonliness"
     compileSdk 34
 
     defaultConfig {
-        applicationId "appk.obzorkards"
+        applicationId "appk.obzorkardsonliness"
         minSdk 21
         targetSdk 34
         versionCode 1
