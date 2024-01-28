@@ -1,4 +1,4 @@
-package appk.obzorkardsonliness.adapter
+package appk.obzorkardsonlinesss.adapter
 
 
 import android.text.Html
@@ -9,8 +9,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
-import appk.obzorkardsonliness.R
-import appk.obzorkardsonliness.model.CardModel
+import appk.obzorkardsonlinesss.R
+import appk.obzorkardsonlinesss.model.CardModel
 import com.bumptech.glide.Glide
 
 

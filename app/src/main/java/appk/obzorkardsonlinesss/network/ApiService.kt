@@ -1,9 +1,9 @@
-package appk.obzorkardsonliness.network
+package appk.obzorkardsonlinesss.network
 
-import appk.obzorkardsonliness.model.CardModel
-import appk.obzorkardsonliness.model.LoanModel
-import appk.obzorkardsonliness.model.NewsModel
-import appk.obzorkardsonliness.model.PrivacyModel
+import appk.obzorkardsonlinesss.model.CardModel
+import appk.obzorkardsonlinesss.model.LoanModel
+import appk.obzorkardsonlinesss.model.NewsModel
+import appk.obzorkardsonlinesss.model.PrivacyModel
 import retrofit2.Call
 import retrofit2.http.GET
 

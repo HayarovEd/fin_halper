@@ -1,4 +1,4 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import appk.obzorkardsonliness.R
-import appk.obzorkardsonliness.adapter.NewsAdapter
-import appk.obzorkardsonliness.databinding.NewsFragmentBinding
-import appk.obzorkardsonliness.model.NewsModel
+import appk.obzorkardsonlinesss.R
+import appk.obzorkardsonlinesss.adapter.NewsAdapter
+import appk.obzorkardsonlinesss.databinding.NewsFragmentBinding
+import appk.obzorkardsonlinesss.model.NewsModel
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

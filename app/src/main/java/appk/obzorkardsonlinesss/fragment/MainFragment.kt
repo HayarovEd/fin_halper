@@ -1,12 +1,12 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import appk.obzorkardsonliness.R
-import appk.obzorkardsonliness.databinding.MainFragmentBinding
+import appk.obzorkardsonlinesss.R
+import appk.obzorkardsonlinesss.databinding.MainFragmentBinding
 import com.realpacific.clickshrinkeffect.applyClickShrink
 
 class MainFragment : BaseFragment() {

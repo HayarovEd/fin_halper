@@ -1,11 +1,11 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import appk.obzorkardsonliness.databinding.PrivacyFragmentBinding
-import appk.obzorkardsonliness.model.PrivacyModel
+import appk.obzorkardsonlinesss.databinding.PrivacyFragmentBinding
+import appk.obzorkardsonlinesss.model.PrivacyModel
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

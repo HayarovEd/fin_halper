@@ -1,4 +1,4 @@
-package appk.obzorkardsonliness.activity
+package appk.obzorkardsonlinesss.activity
 
 import android.content.Intent
 import android.os.Build
@@ -8,7 +8,7 @@ import android.os.Handler
 import android.os.Looper
 import android.view.View
 import android.view.WindowManager
-import appk.obzorkardsonliness.R
+import appk.obzorkardsonlinesss.R
 
 class SplashActivity : AppCompatActivity() {
 

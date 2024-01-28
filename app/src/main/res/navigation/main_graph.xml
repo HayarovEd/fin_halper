@@ -4,7 +4,7 @@
     app:startDestination="@id/startFragment">
     <fragment
         android:id="@+id/startFragment"
-        android:name="appk.obzorkardsonliness.fragment.StartFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.StartFragment"
         android:label="StartFragment" >
         <action
             android:id="@+id/action_startFragment_to_mainFragment"
@@ -15,34 +15,34 @@
     </fragment>
     <fragment
         android:id="@+id/privacyFragment"
-        android:name="appk.obzorkardsonliness.fragment.PrivacyFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.PrivacyFragment"
         android:label="PrivacyFragment" />
     <fragment
         android:id="@+id/mainFragment"
-        android:name="appk.obzorkardsonliness.fragment.MainFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.MainFragment"
         android:label="MainFragment" />
     <fragment
         android:id="@+id/newsFragment"
-        android:name="appk.obzorkardsonliness.fragment.NewsFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.NewsFragment"
         android:label="NewsFragment" />
     <fragment
         android:id="@+id/newsDetailFragment"
-        android:name="appk.obzorkardsonliness.fragment.NewsDetailFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.NewsDetailFragment"
         android:label="NewsDetailFragment" />
     <fragment
         android:id="@+id/cardsFragment"
-        android:name="appk.obzorkardsonliness.fragment.CardsFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.CardsFragment"
         android:label="CardsFragment" />
     <fragment
         android:id="@+id/loansFragment"
-        android:name="appk.obzorkardsonliness.fragment.LoansFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.LoansFragment"
         android:label="LoansFragment" />
     <fragment
         android:id="@+id/loanDetailFragment"
-        android:name="appk.obzorkardsonliness.fragment.LoanDetailFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.LoanDetailFragment"
         android:label="LoanDetailFragment" />
     <fragment
         android:id="@+id/browserFragment"
-        android:name="appk.obzorkardsonliness.fragment.BrowserFragment"
+        android:name="appk.obzorkardsonlinesss.fragment.BrowserFragment"
         android:label="BrowserFragment" />
 </navigation>

@@ -1,4 +1,4 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,18 +7,19 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import appk.obzorkardsonliness.R
-import appk.obzorkardsonliness.adapter.LoansAdapter
-import appk.obzorkardsonliness.databinding.LoansFragmentBinding
-import appk.obzorkardsonliness.model.LoanModel
+import appk.obzorkardsonlinesss.R
+import appk.obzorkardsonlinesss.adapter.CardsAdapter
+import appk.obzorkardsonlinesss.databinding.CardsFragmentBinding
+import appk.obzorkardsonlinesss.model.CardModel
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class LoansFragment : BaseFragment() {
+class CardsFragment : BaseFragment() {
 
-    private lateinit var adapter: LoansAdapter
-    private var _binding: LoansFragmentBinding? = null
+    private lateinit var adapter: CardsAdapter
+
+    private var _binding: CardsFragmentBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -26,7 +27,7 @@ class LoansFragment : BaseFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = LoansFragmentBinding.inflate(inflater, container, false)
+        _binding = CardsFragmentBinding.inflate(inflater, container, false)
         return binding.root
     }
 
@@ -35,33 +36,29 @@ class LoansFragment : BaseFragment() {
 
         binding.backBtn.setOnClickListener { goBack() }
 
-        adapter = LoansAdapter({
-            val bundle = Bundle()
-            bundle.putSerializable("data", it)
-            findNavController().navigate(R.id.loanDetailFragment, bundle)
-        }, {
+        adapter = CardsAdapter{
             val bundle = Bundle()
             bundle.putString("url", it.url)
             findNavController().navigate(R.id.browserFragment, bundle)
-        })
-        binding.rvLoans.layoutManager = LinearLayoutManager(requireContext(), RecyclerView.VERTICAL, false)
-        binding.rvLoans.hasFixedSize()
-        binding.rvLoans.adapter = adapter
+        }
+        binding.rvCards.layoutManager = LinearLayoutManager(requireContext(), RecyclerView.VERTICAL, false)
+        binding.rvCards.hasFixedSize()
+        binding.rvCards.adapter = adapter
 
         fetchData()
     }
 
     private fun fetchData(){
-        val call = request.getLoans()
-        call.enqueue(object : Callback<List<LoanModel>> {
+        val call = request.getCards()
+        call.enqueue(object : Callback<List<CardModel>> {
             override fun onResponse(
-                call: Call<List<LoanModel>>,
-                response: Response<List<LoanModel>>
+                call: Call<List<CardModel>>,
+                response: Response<List<CardModel>>
             ) {
                 response.body()?.let { adapter.setList(it) }
             }
 
-            override fun onFailure(call: Call<List<LoanModel>>, t: Throwable) {
+            override fun onFailure(call: Call<List<CardModel>>, t: Throwable) {
                 t.printStackTrace()
             }
         })

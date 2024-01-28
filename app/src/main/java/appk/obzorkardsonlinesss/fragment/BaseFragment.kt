@@ -1,9 +1,9 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import appk.obzorkardsonliness.network.ApiService
-import appk.obzorkardsonliness.network.ServiceBuilder
+import appk.obzorkardsonlinesss.network.ApiService
+import appk.obzorkardsonlinesss.network.ServiceBuilder
 
 
 abstract class BaseFragment : Fragment() {

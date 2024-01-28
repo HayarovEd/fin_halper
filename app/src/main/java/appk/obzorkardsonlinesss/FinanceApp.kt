@@ -1,4 +1,4 @@
-package appk.obzorkardsonliness
+package appk.obzorkardsonlinesss
 
 import android.app.Application
 import android.content.ContextWrapper

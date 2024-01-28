@@ -1,4 +1,4 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -21,7 +21,7 @@ import android.view.ViewGroup
 import android.webkit.*
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import appk.obzorkardsonliness.databinding.BrowserFragmentBinding
+import appk.obzorkardsonlinesss.databinding.BrowserFragmentBinding
 import java.io.File
 import java.io.IOException
 import java.text.SimpleDateFormat

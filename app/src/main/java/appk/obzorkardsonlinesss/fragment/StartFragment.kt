@@ -1,4 +1,4 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import android.os.Bundle
 import android.util.Log
@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
-import appk.obzorkardsonliness.R
-import appk.obzorkardsonliness.databinding.StartFragmentBinding
+import appk.obzorkardsonlinesss.R
+import appk.obzorkardsonlinesss.databinding.StartFragmentBinding
 import com.pixplicity.easyprefs.library.Prefs
 import com.realpacific.clickshrinkeffect.applyClickShrink
 

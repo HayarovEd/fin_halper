@@ -1,12 +1,12 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import android.os.Bundle
 import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import appk.obzorkardsonliness.databinding.NewsDetailFragmentBinding
-import appk.obzorkardsonliness.model.NewsModel
+import appk.obzorkardsonlinesss.databinding.NewsDetailFragmentBinding
+import appk.obzorkardsonlinesss.model.NewsModel
 import com.bumptech.glide.Glide
 
 class NewsDetailFragment : BaseFragment() {

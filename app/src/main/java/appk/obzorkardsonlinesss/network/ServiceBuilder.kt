@@ -1,4 +1,4 @@
-package appk.obzorkardsonliness.network
+package appk.obzorkardsonlinesss.network
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

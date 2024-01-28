@@ -1,13 +1,13 @@
-package appk.obzorkardsonliness.fragment
+package appk.obzorkardsonlinesss.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import appk.obzorkardsonliness.R
-import appk.obzorkardsonliness.databinding.LoansDetailFragmentBinding
-import appk.obzorkardsonliness.model.LoanModel
+import appk.obzorkardsonlinesss.R
+import appk.obzorkardsonlinesss.databinding.LoansDetailFragmentBinding
+import appk.obzorkardsonlinesss.model.LoanModel
 import com.bumptech.glide.Glide
 
 class LoanDetailFragment : BaseFragment() {

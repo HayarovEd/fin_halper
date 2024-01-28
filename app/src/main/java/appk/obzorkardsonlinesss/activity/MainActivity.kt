@@ -1,12 +1,12 @@
-package appk.obzorkardsonliness.activity
+package appk.obzorkardsonlinesss.activity
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 
-import appk.obzorkardsonliness.databinding.ActivityMainBinding
-import appk.obzorkardsonliness.R
+import appk.obzorkardsonlinesss.databinding.ActivityMainBinding
+import appk.obzorkardsonlinesss.R
 import com.pixplicity.easyprefs.library.Prefs
 
 class MainActivity : AppCompatActivity() {
